@@ -4,3 +4,5 @@ node_js:
 services:
   - mongodb
 cache: yarn
+script:
+  - npm run coverage
