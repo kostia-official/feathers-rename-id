@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/kozzztya/feathers-rename-id.svg?branch=master)](https://travis-ci.org/kozzztya/feathers-rename-id)
-[![codecov](https://codecov.io/gh/kozzztya/feathers-rename-id/branch/master/graph/badge.svg)](https://codecov.io/gh/kozzztya/feathers-rename-id)
 
 # feathers-rename-id
 
