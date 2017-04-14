@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kozzztya/feathers-rename-id.svg?branch=master)](https://travis-ci.org/kozzztya/feathers-rename-id)
+
 # feathers-rename-id
 
 Can change "_id" to "id" for all requests.
