@@ -1,5 +1,5 @@
 const mongooseService = require('feathers-mongoose').Service;
-const Service = require('../../dist/')(mongooseService);
+const Service = require('../../src/')(mongooseService);
 const Post = require('./post-model');
 const feathers = require('feathers');
 const rest = require('feathers-rest');

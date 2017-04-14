@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "pretest": "npm run build",
     "build": "babel -d dist/ src/",
     "test": "ava -vs test/*.test.js",
     "coverage": "nyc npm test && nyc report --reporter=lcov > coverage.lcov && codecov"
