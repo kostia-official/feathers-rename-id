@@ -33,6 +33,10 @@
     "type": "git",
     "url": "git+https://github.com/kozzztya/feathers-rename-id.git"
   },
+  "ava": {
+    "require": "babel-register",
+    "babel": "inherit"
+  },
   "keywords": [
     "feathers",
     "rename",
