@@ -23,7 +23,14 @@ module.exports = (Service) => class extends Service {
   find(params) {
     const input = this.renameInInput({ params });
     return super.find(input.params)
-      .then(this.renameInOutput.bind(this));
+      .then((res) => {
+        if (res.data) {
+          res.data = this.renameInOutput(res.data);
+        } else {
+          res = this.renameInOutput(res);
+        }
+        return res;
+      })
   }
 
   get(id, params) {

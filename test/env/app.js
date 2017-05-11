@@ -11,6 +11,13 @@ app.use(bodyParser.json())
   .configure(rest())
   .use('/posts', new Service({
     Model: Post
+  }))
+  .use('/paginated-posts', new Service({
+    Model: Post,
+    paginate: {
+      default: 10,
+      max: 50
+    }
   }));
 
 module.exports = app;
