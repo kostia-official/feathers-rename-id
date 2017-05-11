@@ -2,6 +2,8 @@
 
 # feathers-rename-id
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kozzztya/feathers-rename-id.svg)](https://greenkeeper.io/)
+
 Can change "_id" to "id" for all requests.
 
 ## Configure
