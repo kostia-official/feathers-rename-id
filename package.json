@@ -1,6 +1,6 @@
 {
   "name": "feathers-rename-id",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Package to use id instead of _id",
   "main": "dist/index.js",
   "scripts": {
