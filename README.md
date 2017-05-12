@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/kozzztya/feathers-rename-id.svg?branch=master)](https://travis-ci.org/kozzztya/feathers-rename-id)
-
 # feathers-rename-id
+
+[![Build Status](https://travis-ci.org/kozzztya/feathers-rename-id.svg?branch=master)](https://travis-ci.org/kozzztya/feathers-rename-id)
+[![Greenkeeper badge](https://badges.greenkeeper.io/kozzztya/feathers-rename-id.svg)](https://greenkeeper.io/)
 
 Can change "_id" to "id" for all requests.
 
