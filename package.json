@@ -23,7 +23,7 @@
     "feathers": "2.1.2",
     "feathers-mongoose": "5.1.0",
     "feathers-rest": "1.7.2",
-    "mongoose": "4.10.0",
+    "mongoose": "5.2.2",
     "superagent": "3.5.2",
     "supertest": "3.0.0"
   },
